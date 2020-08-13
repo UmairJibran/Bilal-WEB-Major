@@ -12,11 +12,10 @@
     <title>Auction - Log In/Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/master.css">
 </head>
 
-<body class="entirePage">
+<body>
     <div class="jumbotron"></div>
     <div class="row">
         <div class="col col-1"></div>
@@ -28,20 +27,23 @@
             <form action="#" method="post">
                 <center>
                     <div class="md-form">
-                        <input required type="text" name="FirstName" placeholder="First Name">
-                        <input required type="email" name="email" placeholder="Email Address" style="float: right;">
+                        <input required type="text" class="form-control" name="FirstName" placeholder="First Name">
+                        <br>
+                        <input required type="text" class="form-control" name="LastName" placeholder="Last Name">
                         <br><br>
-                        <input required type="text" name="LastName" placeholder="Last Name">
-                        <input required type="password" name="password" placeholder="Your Password" style="float: right;">
-                        <br><br>
-                        <input required type="number" name="Contact" placeholder="Contact">
-                        <input type="submit" value="Sign Up" class="btn btn-primary" name = 'signUp'
-                            style="float: right; margin-left: 60px;">
-                        <br><br>
-                        <select required name="payment" name="payment" class="custom-select">
+                        <input required type="email" class="form-control" name="email" placeholder="Email Address" >
+                        <br>
+                        <input required type="password" class="form-control" name="password" placeholder="Your Password">
+                        <br>
+                        <input required type="number" class="form-control" name="Contact" placeholder="Contact">
+                        <br>
+                        <select class="form-control" required name="payment" name="payment" class="custom-select">
                             <option value="easypaisa">EasyPaisa</option>
                             <option value="cashOnDelivery">Cash on Delivery</option>
                         </select>
+                        <br>
+                        <input type="submit" value="Sign Up" class="btn btn-primary" name = 'signUp'
+                            style="float: right; margin-left: 60px;">
                     </div>
                 </center>
             </form>
@@ -54,10 +56,10 @@
                 <h1>Log In</h1>
                 <form action="#" method="post">
                     <div class="md-form">
-                        <input required type="email" name="Email" placeholder="Email Address">
+                        <input required class="form-control" type="email" name="Email" placeholder="Email Address">
                         <br><br>
-                        <input required type="password" name="password" placeholder="Your Password">
-                        <br><br>
+                        <input required class="form-control" type="password" name="password" placeholder="Your Password">
+                        <br>
                         <input type="submit" name='login' value="Log In" class="btn btn-primary" style="float: right;">
                     </div>
                 </form>
