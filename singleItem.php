@@ -69,14 +69,14 @@
                             echo"<font color='green'>Won by $winnerEmail</font>";
                         }elseif($user_id == $highest_bidder){
                             echo'
-                                <div class="alert alert-success" role="alert">
-                                    <center>You\'ve outbid everyone!</center>
+                                <div class="alert alert-secondary" role="alert">
+                                    <center>Can\'t place bid on your product!</center>
                                 </div>
                             ';
                         }elseif($poster_id == $user_id){
                             echo'
-                                <div class="alert alert-secondary" role="alert">
-                                    <center>Can\'t place bid on your product!</center>
+                                <div class="alert alert-success" role="alert">
+                                    <center>You\'ve outbid everyone!</center>
                                 </div>
                             ';
                         }else{

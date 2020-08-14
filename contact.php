@@ -17,22 +17,16 @@
             <br>
             <div class="row">
             <div class="col col-3">
-                    <h4>Umair Jibran</h4>
-                    <h4>Nouman Bilal</h4>
-                </div>
-                <div class="col col-2">
-                    <h4>8440</h4>
-                    <h4>8528</h4>
+                    <h4>Muhammad Bilal</h4>
                 </div>
                 <div class="col col-5">
-                    <h4><a href='mailto:8440@cityuniversity.edu.pk'>Email Me</a></h4>
-                    <h4><a href='mailto:nouman7309@gmail.com'>Email Me</a></h4>
+                    <h4><a href='mailto:bilalkhanofficial7@gmail.com'>Email Me</a></h4>
                 </div>
             </div>
             <br><br>
             <div class="alert alert-info" role="alert">
                 <center>
-                    <font color='brown' size='5'>Developed for Semester Major Assignment by Mr. Sanaullah for WEB Engineering II</font>
+                    <font color='brown' size='5'>Developed for Summer Major Assignment by Mr. Muhammad Jasin for WEB Engineering II</font>
                 </center>
             </div>
             <address>
