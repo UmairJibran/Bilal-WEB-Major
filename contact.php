@@ -16,9 +16,10 @@
             <h3>Developed By</h3>
             <br>
             <div class="row">
-            <div class="col col-3">
+                <div class="col col-3">
                     <h4>Muhammad Bilal</h4>
                 </div>
+                <div class="col col-3">8664</div>
                 <div class="col col-5">
                     <h4><a href='mailto:bilalkhanofficial7@gmail.com'>Email Me</a></h4>
                 </div>
@@ -26,7 +27,7 @@
             <br><br>
             <div class="alert alert-info" role="alert">
                 <center>
-                    <font color='brown' size='5'>Developed for Summer Major Assignment by Mr. Muhammad Jasin for WEB Engineering II</font>
+                    <font color='brown' size='5'>Developed for Summer Major Assignment by Mr. Muhammad Jasim for WEB Engineering II</font>
                 </center>
             </div>
             <address>
